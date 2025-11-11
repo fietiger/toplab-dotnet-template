@@ -1,0 +1,14 @@
+<!-- Directory.Packages.props -->
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
+    <CentralPackageVersionOverrideEnabled>true</CentralPackageVersionOverrideEnabled>
+  </PropertyGroup>
+  <!-- 统一管理所有包的版本 -->
+  <ItemGroup>
+    <!-- 常用框架包 -->
+    <PackageVersion Include="SonarAnalyzer.CSharp" Version="10.15.0.120848" />
+    <PackageVersion Include="SonarAnalyzer.CSharp.Styling" Version="10.15.0.120848" />
+  </ItemGroup>
+</Project>
